@@ -161,12 +161,12 @@ print(cumulative_sum(test_list))
 # 10:45am or 4:30pm (h:mmam or h:mmpm) and return a string in 24-hour
 # format. 10:45am becomes 1045, 4:30pm becomes 1630
 
-def twelveto24(time_str):
+# def twelveto24(time_str):
 
-    if time_str[-2] == 'a':
-        time_str = time_str.replace(':', '')
-        time_str = time_str.replace('am', '')
-        time_int = int(time_str) + 1200
-        return str(time_int)
-    elif time_str[-2] == 'p'
-    return
+#     if time_str[-2] == 'a':
+#         time_str = time_str.replace(':', '')
+#         time_str = time_str.replace('am', '')
+#         time_int = int(time_str) + 1200
+#         return str(time_int)
+#     elif time_str[-2] == 'p'
+#     return
